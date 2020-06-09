@@ -11,8 +11,8 @@ function preload ()
 {
     this.load.image('background', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/gift-box-bow-bokeh-christmas-hd-wallpaper-wallpaper-list.jpg?token=AIEJHUVLZUNSLVVEIGHOME265CDHM');
     this.load.image('mywheel', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/wheel.png?token=AIEJHUQ3YRJ3TD5OKKQ2UCS65CDL6');
-    this.load.image('pin', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/pin.png?token=AIEJHUSDBBP5WBBYZTU7U2K65CDO6');
-    this.load.image('stand', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/stand.png?token=AIEJHUVYLGFIKYELFKTPMIK65CDQ6');
+    this.load.image('pin', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/pin.png?token=AIEJHUVO2BG5Q3LMEKJAGLK65DQVE');
+    this.load.image('stand', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/stand.png?token=AIEJHUXY62RXXLVBGYWWQZC65DQVW');
     this.load.image('startBtn','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/imagess.jpg?token=AIEJHUSFYCV6IVYGNKDKV2C65CFBE');
     this.load.image('yougot','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/back.jpg?token=AIEJHUX5QOTUCFFYWAEQI7265DL4U');
     this.load.image('try','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/download.jpg?token=AIEJHUXO4AODPVO4PJR6KIK65CEV4');
@@ -62,7 +62,7 @@ function spinWheel(){
         this.sound.play('drum');
         this.pin.visible=false;
         this.yougot.visible=true;
-        this.add.text(50,270, `You got ${prizes_config.prize_names[idx]}! Congratulations :D`,{
+        this.add.text(55,270, `You got ${prizes_config.prize_names[idx]}! Congratulations :D`,{
             fontSize: '40px',
             fontFamily: 'Arial',
             color: 'red',
