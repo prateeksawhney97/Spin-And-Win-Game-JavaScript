@@ -2,4 +2,4 @@
 
 ## Data Structures in Real Life Projects
 
-#### A simple game developed using Phaser and JavaScript. 
+#### A simple spin and win game developed using Phaser and JavaScript. 
